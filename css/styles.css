@@ -72,6 +72,8 @@ nav.navbar {
   padding: 30px;
 }
 
+
+
 /*--------------end navbar--------*/
 /*--------jumbotron------------*/
 .jumbotron {
@@ -99,25 +101,24 @@ nav.navbar {
 }
 
 .logoJumbotron {
-  max-height: 200px;
-  margin-top: -55px;
+  max-height: 160px;
+  margin-top: -60px;
 }
 
 /*---------------jumbotron end-----*/
 
 /*-------------footer-------------*/
 .footer {
-  margin-top: 00px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
 }
 
 .logo {
-  margin-top: -30px;
-  margin-left: 60px;
+  max-height: 150px;
+  margin-top: -25px;
 }
 
-.social{
+.social  {
   width: 400px;
   position:relative;
   margin: 50px auto;
@@ -179,7 +180,7 @@ nav.navbar {
 .footerGallery {
   margin-top: 180px;
   text-align: center;
-  margin-left: 200px;
+  /*margin-left: 200px;*/
   font-family: 'Oswald', sans-serif;
 }
 
@@ -193,6 +194,26 @@ nav.navbar {
 #contactUs {
   height: 500px;
   margin-top: 100px;
-  background-color: light-grey;
 }
+
+#contactUs,h1,p {
+  font-family: 'Playfair Display', serif;
+}
+
+.maps {
+  max-height: 500px;
+  margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+.contact_us_row {
+  margin-top: 100px;
+}
+
+.maps, h5{
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+
 /*-------------end contact---------*/
